@@ -29,7 +29,7 @@ export default function Intro() {
             }}
           >
             <Image
-          src="https://res.cloudinary.com/dkfhd0nnf/image/upload/v1690734035/1657370229805_tjdvxx.jpg"
+          src='/profile-pic.jpg'
           alt="Marius profile photo"
           width={192}
           height={192}
@@ -82,7 +82,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Marius.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
         <span className="font-bold">1 year</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
+        building <span className="italic">sites & apps</span>. My current focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
@@ -103,7 +103,7 @@ export default function Intro() {
           <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/>
         </Link>
         <a
-          href="/CV.pdf"
+          href="/Marius_Urbonas_CV.pdf"
           download
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition borderBlack dark:bg-white/10"
         >

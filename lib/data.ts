@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import mbrewImg from "@/public/mbrew.png";
+import scraperImg from "@/public/scraper.webp";
+import fileTreeGeneratorImg from "@/public/fileTreeGenerator.jpg";
 
 export const links = [
   {
@@ -35,52 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Freelance wordpress developer",
+    location: "Klaipėda, Lithuania",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Together with my friend we made a couple of websites for local businesses using wordpress and no-code tools.",
+    icon: React.createElement(FaWordpress),
+    date: "2015-2016",
+  },
+  {
+    title: "Code Academy student",
+    location: "Vilnius, Lithuania",
+    description:
+      "At Code Academy, I advanced my frontend development skills, and gained hands-on experience in backend development and database management.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021-2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Frontend Developer, @Cherry team",
+    location: "Klaipėda, Lithuania",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "After graduating from code academy I started working as a frontend developer at Cherry team. I've learned to work more in a professional environment and collaborate with other developers.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022-2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Mbrew E-shop",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A full-stack project for an imaginary kombucha drink brand. It has login/registration functionality, seeing purchase history, shopping cart and checkout.",
+    tags: ["React", "Styled Components", "PostgreSQL", "Strapi CMS", "Stripe API"],
+    imageUrl: mbrewImg,
   },
   {
-    title: "rmtDev",
+    title: "Codepen Scraper",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A web app for scraping codepen.io and seeing relevant data of a codepen user and his pens.",
+    tags: ["Puppeteer", "TypeScript",],
+    imageUrl: scraperImg,
   },
   {
-    title: "Word Analytics",
+    title: "'File tree generator' - VSCode plugin",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A VSCode plugin for generating a file tree of a project.",
+    tags: ["Javascript", "VSCode API"],
+    imageUrl: fileTreeGeneratorImg,
   },
 ] as const;
 
@@ -91,17 +91,18 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
+  "Vue",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "SCSS",
+  "Git",
+  "Node.js",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "GraphQL",
+  "MySQL",
+  "Strapi CMS",
+  "Stripe API",
+  "Puppeteer",
+  "Gsap",
   "Framer Motion",
+  "Figma",
 ] as const;
