@@ -16,32 +16,18 @@ export default function About() {
       transition={{ delay: 0.175 }}  
     >
       <SectionHeading>About me</SectionHeading>
-       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+      
+<p className="mb-3">
+    My journey into <span className="font-medium">web development</span> began in 2015 when my friend and I crafted websites for several local businesses. Although this experience sparked my interest, I ventured through diverse paths, including roles in <span className="font-medium">customer assistance</span> and in the military.
+</p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+<p className="mb-3">
+    Fast forward to 2021, my passion for coding took center stage. I delved deeper, learning frameworks like <span className="font-medium">ReactJS and VueJS</span>. After that, I enrolled in a 9-month intensive web development program. Completing it, I became part of the <span className="font-medium">Cherry Team</span>, sharpening my technical skills and understanding the nuances of team collaboration in a professional setting.
+</p>
+
+<p>
+    <span className="italic">Beyond the world of code</span>, I find enjoyment in singing pop ballads. When I seek a break, anime is my go-to, with series like <span className="font-medium">"Code Geass", "Demon Slayer",</span> and <span className="font-medium">"Attack on Titan"</span> topping my list.
+</p>
     </motion.section>
   )
 }
