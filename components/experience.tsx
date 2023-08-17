@@ -36,7 +36,11 @@ export default function Experience() {
                 contentArrowStyle={{ borderRight:  theme === 'light' ? '0.4rem solid  #9ca3af' : '0.4rem solid  rgba(255, 255, 255, 0.5)' }}
                 date={item.date}
                 icon={item.icon}
-                iconStyle={{ background:  theme === 'light' ? '#fff' : 'rgba(255, 255, 255 0.15)', fontSize: '1.5rem' }}
+                iconStyle={{
+                  background: '#fff',
+                  color: '#000',
+                  fontSize: '1.5rem'
+                }}
               >
                 <h3 className='font-semibold capitalize'>{item.title}</h3>
                 <p className='font-normal !mt-0'>{ item.location }</p>
