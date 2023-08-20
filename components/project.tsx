@@ -78,7 +78,9 @@ export default function Project({
           </ul>
         </div>
         <div className=" hidden sm:block relative overflow-hidden h-full w-full">
-            <Image
+          <Image
+            width={452}
+            height={452}
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
