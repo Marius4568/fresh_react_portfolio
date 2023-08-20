@@ -29,7 +29,7 @@ export default function Intro() {
             }}
           >
             <Image
-          src='/profile-pic.jpg'
+          src='https://res.cloudinary.com/dcqggnzbv/image/upload/v1692520698/fresh%20portfolio/profile-pic_ivvjng.jpg'
           alt="Marius profile photo"
           width={192}
           height={192}

@@ -2,9 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaWordpress } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import mbrewImg from "@/public/mbrew.png";
-import scraperImg from "@/public/scraper.webp";
-import fileTreeGeneratorImg from "@/public/fileTreeGenerator.jpg";
 
 export const links = [
   {
@@ -66,21 +63,21 @@ export const projectsData = [
     description:
       "A full-stack project for an imaginary kombucha drink brand. It has login/registration functionality, seeing purchase history, shopping cart and checkout.",
     tags: ["React", "Styled Components", "PostgreSQL", "Strapi CMS", "Stripe API"],
-    imageUrl: mbrewImg,
+    imageUrl: 'https://res.cloudinary.com/dcqggnzbv/image/upload/v1692520698/fresh%20portfolio/mbrew_kgrfm2.png',
   },
   {
     title: "Codepen Scraper",
     description:
       "A web app for scraping codepen.io and seeing relevant data of a codepen user and his pens.",
     tags: ["Puppeteer", "TypeScript",],
-    imageUrl: scraperImg,
+    imageUrl: 'https://res.cloudinary.com/dcqggnzbv/image/upload/v1692520698/fresh%20portfolio/scraper_d0nsqr.webp',
   },
   {
     title: "'File tree generator' - VSCode plugin",
     description:
       "A VSCode plugin for generating a file tree of a project.",
     tags: ["Javascript", "VSCode API"],
-    imageUrl: fileTreeGeneratorImg,
+    imageUrl: 'https://res.cloudinary.com/dcqggnzbv/image/upload/v1692520699/fresh%20portfolio/fileTreeGenerator_ikknln.jpg',
   },
 ] as const;
 
