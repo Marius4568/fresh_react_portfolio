@@ -22,7 +22,13 @@ body::before {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url('https://res.cloudinary.com/dcqggnzbv/image/upload/v1692520699/fresh%20portfolio/texture_crr1c0.png');
+  background-image: 
+    /* Try AVIF format */
+    url('https://res.cloudinary.com/dcqggnzbv/image/upload/v1692522894/fresh%20portfolio/texture_yxmkzb.avif'),
+    /* Fallback to WebP format */
+    url('https://res.cloudinary.com/dcqggnzbv/image/upload/v1692536881/fresh%20portfolio/texture_vfkgw0.webp'),
+    /* Fallback to PNG format */
+    url('https://res.cloudinary.com/dcqggnzbv/image/upload/v1692537387/fresh%20portfolio/texture_zgo0xp.png');
   opacity: 0.065;
   z-index: -1;
 }
