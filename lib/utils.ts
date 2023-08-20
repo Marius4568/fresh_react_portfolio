@@ -43,3 +43,22 @@ export function getErrorMessage(error: unknown): string {
   // If the error is not a string or an object with a message, return the default message
   return defaultErrorMessage;
 }
+
+/////TAGS/////
+export function splitTags(tags: string[], charLimit = 32) {
+  const visibleTags = [];
+  const dropdownTags = [];
+
+  let currentCharCount = 0;
+  for (let tag of tags) {
+    currentCharCount += tag.length;
+    if (currentCharCount > charLimit) {
+      dropdownTags.push(tag);
+      currentCharCount -= tag.length; // To ensure the next iteration doesn't wrongly push to dropdownTags due to the already exceeded charLimit
+    } else {
+      visibleTags.push(tag);
+    }
+  }
+
+  return { visibleTags, dropdownTags };
+}
